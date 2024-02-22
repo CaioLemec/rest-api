@@ -7,5 +7,5 @@
 
 # Business Rules (RN)
  - [X] The transaction can be of the credit type, which will add to the total value, or debit type, which will subtract;
- - [] It should be possible to identify the user across requests;
- - [] The user can only view transactions that they have created;
+ - [x] It should be possible to identify the user across requests;
+ - [x] The user can only view transactions that they have created;
