@@ -5,8 +5,8 @@
 <a href="#documentation"><img src="https://img.shields.io/static/v1?label=&message=Documentation&color=333333&style=for-the-badge&logo=googledocs"></a>&nbsp;
 <a href="#tests"><img src="https://img.shields.io/static/v1?label=&message=Tests&color=333333&style=for-the-badge&logo=jest"></a>&nbsp;
 <a href="#environment"><img src="https://img.shields.io/static/v1?label=&message=Environment&color=333333&style=for-the-badge&logo=visual-studio-code"></a>&nbsp;
-<a href="#contribuition"><img src="https://img.shields.io/static/v1?label=&message=License&color=333333&style=for-the-badge&logo=LibreOffice"></a>&nbsp;
-<a href="#license"><img src="https://img.shields.io/static/v1?label=&message=Contribution&color=333333&style=for-the-badge&logo=Linux"></a>&nbsp;
+<a href="#contribution"><img src="https://img.shields.io/static/v1?label=&message=Contribution&color=333333&style=for-the-badge&logo=Linux"></a>&nbsp;
+<a href="#license"><img src="https://img.shields.io/static/v1?label=&message=License&color=333333&style=for-the-badge&logo=LibreOffice"></a>&nbsp;
 <a href="#contact"><img src="https://img.shields.io/static/v1?label=&message=Contact&color=333333&style=for-the-badge&logo=gmail"></a>&nbsp;
 </p>
 
@@ -167,18 +167,37 @@ Create a new financial transaction.
 
 ## Tests
 
-### Functional Requirements (RF)
+This project is equipped with a comprehensive set of tests to ensure the reliability and functionality of its features. 
+The tests are categorized into Functional Requirements (RF) and Business Rules (RN) to cover a wide range of scenarios.
 
-- [x] The user must be able to create a new transaction;
-- [x] The user must be able to obtain a summary of their account;
-- [x] The user must be able to list all transactions that have occurred;
-- [x] The user must be able to view a single transaction;
+#### Functional Requirements (RF)
 
-### Business Rules (RN)
+- **User Creation:**
+  - [X] The user must be able to create a new transaction.
+  - [X] The user must be able to obtain a summary of their account.
+  - [X] The user must be able to list all transactions that have occurred.
+  - [X] The user must be able to view a single transaction.
 
-- [x] The transaction can be of the credit type, which will add to the total value, or debit type, which will subtract;
-- [x] It should be possible to identify the user across requests;
-- [x] The user can only view transactions that they have created;
+#### Business Rules (RN)
+
+- **Transaction Types:**
+  - [X] The transaction can be of credit type, which adds to the total value, or debit type, which subtracts.
+- **User Identification:**
+  - [X] It should be possible to identify the user across requests.
+- **Transaction Visibility:**
+  - [X] The user can only view transactions that they have created.
+
+### Running Tests
+
+To execute the tests, follow these steps:
+
+1. Run the following command in your terminal:
+
+    ```bash
+    npm run test
+    ```
+
+Feel free to expand this section with more details about specific testing tools, methodologies, or additional instructions on how contributors can run and extend the test suite.
 
 ---
 
